@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Hobbit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Selamat Datang di Halaman Beauty of The Hobbit</h1>
+
+    <img src="asset/dwarf.jpg" alt="Dwarf" />
+    <img src="asset/elf.avif" alt="Elf" />
+    <img src="asset/legolas.jpg" alt="Legolas" />
+    <img src="asset/shire.jpg" alt="Shire" />
+    <img src="asset/smaug.jpg" alt="Smaug" />
+    <img src="asset/bilborun.jpg" alt="Bilbo" />
+
+    <button id="scrollsite" onclick="scrollToTop()">&#8593;</button>
+    <script src="script.js"></script>
+  </body>
+</html>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 2500px;
+  }
+
+  img {
+    width: 700px;
+  }
+
+  #scrollsite {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+
+  #scrollsite:hover {
+    opacity: 1;
+  }
+</style>
