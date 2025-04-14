@@ -5,8 +5,13 @@ body {
   height: 2500px;
 }
 
-img {
+.foto-thehobbit img {
   width: 700px;
+}
+
+.cerita-thehobbit {
+  padding: 10px;
+  margin: 15px;
 }
 
 #scrollsite {
